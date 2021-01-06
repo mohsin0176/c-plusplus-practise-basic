@@ -22,10 +22,10 @@ public:
 
 int main()
 {
-    // Construct 3 instances of the class Circle: c1, c2, and c3
-Circle c1(1.2, "red");  // radius, color
-Circle c2(3.4);         // radius, default color
-Circle c3;              // default radius and color
+    //Alternatively, you can invoke the constructor explicitly using the following syntax:
+Circle c1 = Circle(1.2, "red");  // radius, color
+Circle c2 = Circle(3.4);         // radius, default color
+Circle c3 = Circle();            // default radius and color
 
 
 
