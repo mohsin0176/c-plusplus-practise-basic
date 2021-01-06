@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
-
+int main()
+{
 class Circle
 {         // classname
 private:
@@ -20,7 +21,5 @@ public:
    void kickBall();
 };
 
-int main()
-{
     return 0;
 }
