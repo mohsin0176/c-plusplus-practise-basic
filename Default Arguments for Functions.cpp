@@ -10,7 +10,7 @@ int main() {
    cout << sum(1, 1, 1, 1) << endl;    // 4
    cout << sum(1, 1, 1) << endl;       // 3
    cout << sum(1, 1) << endl;          // 2
-// cout << sum(1) << endl;  // error: too few arguments
+cout << sum(1) << endl;  // error: too few arguments
 }
 
 // Function definition
